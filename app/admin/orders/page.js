@@ -3,6 +3,7 @@ import { getSession } from "../../../lib/session";
 import { getAllOrders } from "../../../lib/orders";
 import { redirect } from "next/navigation";
 import { setAdminOrderStatus } from "../../actions";
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Manage Orders",
@@ -15,6 +16,7 @@ export default async function AdminOrdersPage() {
     redirect("/admin-login");
   }
 const orders = getAllOrders();
+
 
   return (
     <section className="admin-orders-page">
