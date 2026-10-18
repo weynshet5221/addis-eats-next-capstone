@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "name": "Doro Wat",
+    "description": "Spicy Ethiopian chicken stew with berbere, served with injera.",
+    "price": 350,
+    "category": "non fasting",
+    "image": "/images/doro.webp",
+    "ingredients": [
+      "Chicken",
+      "Berbere",
+      "Onions",
+      "Injera",
+      "Garlic",
+      "Ginger"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Shiro",
+    "description": "Smooth and flavorful Ethiopian chickpea stew served with injera.",
+    "price": 220,
+    "category": "fasting",
+    "image": "/images/shiro.webp",
+    "ingredients": [
+      "Chickpeas",
+      "Berbere",
+      "Onions",
+      "Garlic",
+      "Oil"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tibs",
+    "description": "Tender pieces of seasoned beef sautéed with onions and peppers.",
+    "price": 420,
+    "category": "non fasting",
+    "image": "/images/tibs.jpg",
+    "ingredients": [
+      "Beef",
+      "Onions",
+      "Peppers",
+      "Rosemary",
+      "Spices"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Vegetable Pizza",
+    "description": "Fresh vegetables and cheese baked on a delicious pizza crust.",
+    "price": 380,
+    "category": "fasting",
+    "image": "/images/pizza.png",
+    "ingredients": [
+      "Flour",
+      "Tomatoes",
+      "Peppers",
+      "Onions",
+      "Cheese"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Addis Burger",
+    "description": "Juicy burger with fresh vegetables and our special sauce.",
+    "price": 400,
+    "category": "non fasting",
+    "image": "/images/burger.png",
+    "ingredients": [
+      "Beef",
+      "Bread",
+      "Lettuce",
+      "Tomato",
+      "Special Sauce"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Macchiato",
+    "description": "Classic Ethiopian macchiato made with rich espresso and milk.",
+    "price": 100,
+    "category": "drinks",
+    "image": "/images/macha.png",
+    "ingredients": [
+      "Espresso",
+      "Milk"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "strawbery-moito",
+    "description": "Freshly prepared strawbery-moito.",
+    "price": 120,
+    "category": "drinks",
+    "image": "/images/strawbery-moito.png",
+    "ingredients": [
+      "strawbery",
+      "ice",
+      "ment"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "vanilla Cake",
+    "description": "Soft and delicious cake served as a sweet dessert.",
+    "price": 180,
+    "category": "desserts",
+    "image": "/images/vanilaCake.png",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Eggs",
+      "Butter"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "red velvet Cake",
+    "description": "Soft and delicious cake served as a sweet dessert.",
+    "price": 180,
+    "category": "desserts",
+    "image": "/images/redVelvet.png",
+    "ingredients": [
+      "Flour",
+      "Sugar",
+      "Eggs",
+      "Butter"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "soft drinks",
+    "description": "Freshly prepared strawbery-moito.",
+    "price": 120,
+    "category": "drinks",
+    "image": "/images/soft-drink.png",
+    "ingredients": [
+      "soft drinks"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Salad",
+    "description": "A fresh and healthy salad made with crisp vegetables and a light dressing.",
+    "price": 1000,
+    "category": "fasting",
+    "image": "/images/salad.png",
+    "ingredients": [
+      "Lettuce",
+      "Tomato",
+      "Cucumber",
+      "Carrot",
+      "Onion",
+      "Lemon Dressing"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Beyaynetu",
+    "description": "A colorful combination of Ethiopian vegetarian dishes served together with injera.",
+    "price": 300,
+    "category": "fasting",
+    "image": "/images/beyaynet.webp",
+    "ingredients": [
+      "Shiro",
+      "Misir",
+      "Gomen",
+      "Cabbage",
+      "Potatoes",
+      "Carrots",
+      "Injera"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Lazagna",
+    "description": "Layers of pasta, rich tomato sauce, seasoned meat, and melted cheese baked until delicious.",
+    "price": 2000,
+    "category": "main-dishes",
+    "image": "/images/lazagna.png",
+    "ingredients": [
+      "Lasagna Sheets",
+      "Ground Beef",
+      "Tomato Sauce",
+      "Onions",
+      "Mozzarella Cheese",
+      "Parmesan Cheese"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Rice",
+    "description": "Fluffy seasoned rice served as a satisfying and flavorful meal.",
+    "price": 1000,
+    "category": "fasting",
+    "image": "/images/rice.png",
+    "ingredients": [
+      "Rice",
+      "Onions",
+      "Garlic",
+      "Carrots",
+      "Cooking Oil",
+      "Spices"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Noodles",
+    "description": "Stir-fried noodles combined with fresh vegetables and flavorful seasoning.",
+    "price": 1000,
+    "category": "fasting",
+    "image": "/images/noodles.png",
+    "ingredients": [
+      "Noodles",
+      "Carrots",
+      "Onions",
+      "Bell Pepper",
+      "Garlic",
+      "Soy Sauce"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Kitfo",
+    "description": "A traditional Ethiopian minced beef dish seasoned with mitmita and clarified butter.",
+    "price": 1000,
+    "category": "main-dishes",
+    "image": "/images/kitfo.webp",
+    "ingredients": [
+      "Minced Beef",
+      "Mitmita",
+      "Niter Kibbeh",
+      "Ayib",
+      "Kale"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Chocolate Cup",
+    "description": "A creamy chocolate dessert served in a cup for a sweet finish to your meal.",
+    "price": 1000,
+    "category": "desserts",
+    "image": "/images/choco-cup.png",
+    "ingredients": [
+      "Chocolate",
+      "Milk",
+      "Cream",
+      "Sugar",
+      "Cocoa Powder"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Chocolate Cake",
+    "description": "A soft and rich chocolate cake topped with a delicious chocolate layer.",
+    "price": 1000,
+    "category": "desserts",
+    "image": "/images/choco-cake.png",
+    "ingredients": [
+      "Flour",
+      "Cocoa Powder",
+      "Sugar",
+      "Eggs",
+      "Butter",
+      "Milk",
+      "Chocolate"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Cocktail",
+    "description": "Refreshing fruit cocktail made with a blend of fresh fruits and juice.",
+    "price": 180,
+    "category": "drinks",
+    "image": "/images/cocktail.png",
+    "ingredients": [
+      "Mixed fruits",
+      "Fruit juice",
+      "Ice"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Bottled Water",
+    "description": "Refreshing chilled bottled water, perfect for any meal.",
+    "price": 50,
+    "category": "drinks",
+    "image": "/images/water.png",
+    "ingredients": [
+      "Purified water"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Malt",
+    "description": "Refreshing malt drink with a rich and smooth malty flavor.",
+    "price": 80,
+    "category": "drinks",
+    "image": "/images/malt.png",
+    "ingredients": [
+      "Malt extract",
+      "Carbonated water",
+      "Sugar"
+    ]
+  }
+]
