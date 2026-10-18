@@ -10,8 +10,7 @@ export async function GET(request, { params }) {
   }
 
   const { id } = await params;
-  const order = getOrderById(id);
-
+const order = await getOrderById(id);
   if (!order || (order.userId !== user.id && !["admin", "staff"].includes(user.role))) {
     return NextResponse.json({ error: "Order not found." }, { status: 404 });
   }

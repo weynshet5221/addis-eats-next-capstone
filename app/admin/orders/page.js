@@ -15,8 +15,7 @@ export default async function AdminOrdersPage() {
   if (!user || user.role !== "admin") {
     redirect("/admin-login");
   }
-const orders = getAllOrders();
-
+const orders = await getAllOrders();
 
   return (
     <section className="admin-orders-page">

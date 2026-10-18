@@ -17,7 +17,7 @@ export default async function OrderDetailPage({ params }) {
 
   if (!user) redirect(`/signin?next=${encodeURIComponent(`/orders/${id}`)}`);
 
-  const order = getOrderById(id);
+  const order = await getOrderById(id);
 
   if (!order || (order.userId !== user.id && !["admin", "staff"].includes(user.role))) {
     notFound();

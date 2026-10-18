@@ -19,8 +19,7 @@ export default async function OrderTrackingPage({ params }) {
   }
 
   const { id } = await params;
-  const order = getOrderById(id);
-
+const order = await getOrderById(id);
   if (!order) {
     notFound();
   }

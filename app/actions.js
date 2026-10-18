@@ -76,8 +76,7 @@ export async function cancelOrder(formData) {
   if (!user) redirect("/signin");
 
   const orderId = String(formData.get("orderId") || "");
-  const result = cancelOrderForUser(orderId, user.id);
-
+const result = await cancelOrderForUser(orderId, user.id);
   if (!result.success) throw new Error(result.error);
   redirect("/orders");
 }
@@ -91,9 +90,7 @@ export async function setOrderStatus(formData) {
 
   const orderId = String(formData.get("orderId") || "");
   const status = String(formData.get("status") || "");
-  const result = changeOrderStatus(orderId, status);
-
-  if (!result.success) throw new Error(result.error);
+const result = await changeOrderStatus(orderId, status);  if (!result.success) throw new Error(result.error);
   redirect("/kitchen");
 }
 export async function setAdminOrderStatus(formData) {

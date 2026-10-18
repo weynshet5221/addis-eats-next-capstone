@@ -64,8 +64,7 @@ export default async function OrdersPage({ searchParams }) {
     : "createdAt";
 
   const dir = params.dir === "asc" ? "asc" : "desc";
-  const orders = getOrdersForUser(user.id);
-
+const orders = await getOrdersForUser(user.id);
   const sortedOrders = [...orders].sort((a, b) => {
     const result = compareOrders(a, b, sort);
     return dir === "asc" ? result : -result;

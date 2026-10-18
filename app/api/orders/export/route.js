@@ -26,8 +26,7 @@ export async function GET() {
     );
   }
 
-  const orders = getOrdersForUser(user.id);
-
+const orders = await getOrdersForUser(user.id);
   const headers = [
     "Order ID",
     "Items",

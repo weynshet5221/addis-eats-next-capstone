@@ -68,7 +68,7 @@ export async function POST(request) {
       });
     }
 
-    const result = createOrderForUser({
+    const result = await createOrderForUser({
       userId: user.id,
       items: trustedItems,
       neighbourhood,

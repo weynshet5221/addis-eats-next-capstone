@@ -17,7 +17,7 @@ export default async function DashboardPage() {
     redirect("/admin-login");
   }
 
-  const orders = getAllOrders();
+  const orders =await getAllOrders();
   const validOrders = orders.filter(
     (order) => order.status !== "Cancelled"
   );
