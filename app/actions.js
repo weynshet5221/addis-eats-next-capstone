@@ -103,7 +103,7 @@ export async function setAdminOrderStatus(formData) {
   const orderId = String(formData.get("orderId") || "");
   const status = String(formData.get("status") || "");
 
-  const result = changeOrderStatus(orderId, status);
+  const result = await changeOrderStatus(orderId, status);
 
  if (!result.success) {
   throw new Error(result.error);
