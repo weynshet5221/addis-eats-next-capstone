@@ -85,10 +85,12 @@ export async function POST(request) {
       { order: result.order },
       { status: 201 }
     );
-  } catch {
-    return NextResponse.json(
-      { error: "Unable to create your order." },
-      { status: 500 }
-    );
-  }
+  } catch (error) {
+  console.error("POST /api/orders failed:", error);
+
+  return NextResponse.json(
+    { error: "Unable to create your order." },
+    { status: 500 }
+  );
+}
 }
